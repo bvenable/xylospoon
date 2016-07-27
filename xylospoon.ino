@@ -10,8 +10,8 @@ void setup()
 
 void pintonote(int pin)
 {
-  int note;
-  note = 58 + pin;
+  int notes[] = {0, 0, 60, 62, 64, 65, 67, 69};
+  int note = notes[pin];
   if (digitalRead(pin)) {
     usbMIDI.sendNoteOff(note, 50, 144);
   } else {
