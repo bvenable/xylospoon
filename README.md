@@ -1,2 +1,4 @@
 # xylospoon
-midi xylophone with Teensy and spoons
+MIDI xylophone with Teensy and spoons
+
+Uses Teensyduino (https://www.pjrc.com/teensy/teensyduino.html)
